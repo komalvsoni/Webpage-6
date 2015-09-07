@@ -10,7 +10,7 @@ body { background: #eee;}
 
 .container .heading-1 h1 { float: left; color: #FC913A; font-weight: normal; }
 .container .heading-1 h3 { float: left; margin-top: 10px; padding-left: 15px; color: darkgray; }
-.container nav ul li { display: inline-block; float: left; padding: 10px 38px 10px 38px; width: 135px;  border: 2px solid white ; 
+.container nav ul li { display: inline-block; float: left; padding: 10px 38px 10px 38px; width: 130px;  border: 2px solid white ; 
 					   background: darkgray; color: white; font-size: 31px;  margin-top: 20px;
 					   margin-bottom: 20px; }
 
