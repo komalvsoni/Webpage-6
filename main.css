@@ -10,26 +10,24 @@ body { background: #eee;}
 
 .container .heading-1 h1 { float: left; color: #FC913A; font-weight: normal; }
 .container .heading-1 h3 { float: left; margin-top: 10px; padding-left: 15px; color: darkgray; }
-.container nav ul li { display: inline-block; float: left; padding: 10px 38px 10px 38px;  border: 2px solid white ; 
+.container nav ul li { display: inline-block; float: left; padding: 10px 38px 10px 38px; width: 135px;  border: 2px solid white ; 
 					   background: darkgray; color: white; font-size: 31px;  margin-top: 20px;
 					   margin-bottom: 20px; }
 
-.container .container1 { width: 640px; float: left; margin-right: 30px; }
+.container .container1 { width: 900px; float: left; margin-right: 30px; }
 .container .container1 .block1-left .color { color: gray; padding-bottom: 10px; font-size: 25px; }
 .container .container1 .block1-left h3 { font-size: 20px; padding-bottom: 10px; }
-.container .container1 .img1 { width: 640px;}
 .container .container1 .block1-left p { padding-top: 20px; text-align: justify; }
 .container .container1 .block1-left .link { color: orange; padding-bottom: 20px; float: right; }
 .container .container1 .block1-left { border-bottom: 2px solid black; padding-bottom: 50px; }
 
 .container .container1 .block2-left .color { color: gray; padding-bottom: 10px; padding-top: 10px; font-size: 25px; }
 .container .container1 .block2-left h3 { font-size: 20px; padding-bottom: 10px; }
-.container .container1 .img2 { width: 640px;}
 .container .container1 .block2-left p { padding-top: 20px; text-align: justify; }
 .container .container1 .block2-left .link { color: orange; padding-bottom: 20px; float: right; }
 .container .container1 .block2-left { border-bottom: 2px solid black; padding-bottom: 50px; }
 
-.container .container2 { width: 200px; 	float: right; margin-right: 300px;}
+.container .container2 { width: 300px; 	float: right;}
 .container .container2 .block3-right h3 { padding-top: 40px; padding-bottom: 10px; }
 .container .container2 .block3-right p { text-align: justify; padding-bottom: 20px;}
 .container .container2 .block3-right .link {  color: orange; padding-bottom: 20px; float: right;  }
@@ -37,6 +35,18 @@ body { background: #eee;}
 .container .container2 .block4-right { width: 205px; height: 100px; padding: 50px; background-color: #ABA6A6; color: #696464; text-align: center; margin-top: 20px; font-size: 40px; font-weight: bolder; }
 .container .container2 .border { border-bottom: 2px solid black;padding-bottom: 30px;  }
 .container .container2 .block5-right h3 { padding-top: 30px; color: gray;  font-size: 25px; padding-bottom: 20px; }
-.container .container2 .block5-right ul li { color: orange; font-size: 20px; padding-left: 50px; }
+.container .container2 .block5-right ul  { margin-left: 50px; }
+.container .container2 .block5-right ul li { color: orange; font-size: 20px; }
 
-.container footer {  }
+
+
+.container footer { padding: 20px; }
+.container footer ul li  { display: inline-block; padding: 0 20px; border-right: 1px solid black; margin-bottom: 15px; color: orange; }
+.container footer ul li:last-child  {  border-right: none;  }
+.container footer ul li:first-child  {  padding-left: 0;  }
+
+
+
+
+
+
